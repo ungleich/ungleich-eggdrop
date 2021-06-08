@@ -5,5 +5,5 @@ if [ -z "${NICK}" ]; then
     exit 1
 fi
 
-sed -i -e "s/NICK/$NICK/" /home/eggdrop/eggdrop.conf
+sed -i -e "s/MYNAME/$NICK/" /home/eggdrop/eggdrop.conf
 su - eggdrop -c /home/eggdrop/eggdrop.sh
