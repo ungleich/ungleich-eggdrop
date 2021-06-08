@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ -z "${NICK}" ]; then
-    echo "You need to setup the NICK environment variable
+    echo "You need to setup the NICK environment variable"
     exit 1
 fi
 
